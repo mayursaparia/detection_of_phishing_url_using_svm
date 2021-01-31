@@ -14,6 +14,10 @@ Now the training set is used to train the classifier. The classifiers chosen is:
 
 Support vector machine with a rbf kernel and using gridsearchcv to predict best parameters for svm was a really good choice, and fitting the model with predicted best parameters I was able to get 96.47 accuracy which is pretty good.
 
+## Variable Importance
+
+![alt text](https://github.com/mayursaparia/detection_of_phishing_url_using_svm/blob/master/variable_Importances.png?raw=true)
+
 #### NOTE
 
 Logistic Regression and Random Forest Classification models are in process.
